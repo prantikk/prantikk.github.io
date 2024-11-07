@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EyeThree Inc.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <canvas id="animation-canvas"></canvas>
+
+  <!-- Include Three.js and GLTFLoader -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="GLTFLoader.js"></script>
+  <script src="three_brain.js"></script>
+
+  <!-- Overlay Content -->
+  <div id="overlay-content">
+    <!-- Top Section: Logo -->
+    <div id="logo-container">
+      <img src="static/eyethree_logo_yellow.png" alt="EyeThree Company Logo" id="logo">
+    </div>
+
+    <!-- Bottom Section: Content (Text/Button or Form) -->
+    <div id="content-container">
+        <p id="statement">Optimizing cognitive engagement in the AI era with precision neuroscience and applied neurotechnology.</p>
+      <a href="#" id="cta-link">Get in Touch</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <p>&copy; 2024 EyeThree Inc. All rights reserved.</p>
+    <div id="footer-icons">
+      <a href="mailto:info@eyethree.ai" class="social-button">
+        <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Email" class="social-icon">
+      </a>
+      <a href="https://www.linkedin.com/company/yourcompany" target="_blank" class="social-button">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="social-icon">
+      </a>
+    </div>
+  </footer>
+
+  <!-- Include fade.js script at the end of the body -->
+  <script src="fade.js"></script>
+
+</body>
+</html>
+
