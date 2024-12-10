@@ -1,0 +1,29 @@
+/* Bootstrap CSS variable overloads */
+:root {
+  --bs-heading-color: white;
+  --bs-body-bg: #3a3a5a;
+  --bs-body-color: white;
+  --bs-body-color-rgb: rgb(255, 255, 255);
+}
+.btn-primary {
+  --bs-btn-color: black;
+  --bs-btn-hover-color: black;
+  --bs-btn-bg: #FFD700;
+  --bs-btn-border-color: #FFD700;
+  --bs-btn-hover-bg: #FFC107;
+
+  --bs-btn-hover-border-color: #FFC107;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: black;
+  --bs-btn-active-bg: #eeb50b;
+  --bs-btn-active-border-color: #eeb50b;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: black;
+  --bs-btn-disabled-bg: #dec782;
+  --bs-btn-disabled-border-color: #dec782;
+}
+
+/* Custom Styles */
+.hero {
+  min-height: 90vh;
+}
